@@ -39,7 +39,20 @@ func forSquareWith(sideLength s : Double) -> Double {
  
  */
 func forRectangleWith(length l : Double, width w : Double) -> Double {
+// func    NAME    arg_label parameter : data_type         return type
     
-    // Complete this function
-    return 0.0
+// func is the keyword used to declare a function
+// "forRectangleWith" is the function name
+// "length" is the first argument label
+// "l" is the first parameter name
+// Double is the data type of the first parameter
+// , is how we separate parameters (and add a second parameter)
+// -> is how we tell Swift the function returns a value
+// Double is the data type of the return value
+
+    // Calculates the area, save in "result" constant
+    let result = l * w
+    // Returns "result" to the caller
+    return result
+    
 }
